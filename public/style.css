@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Recursive:wght@300;400;500;600;700;800;900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #FB6B6B;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container > img{
+    width:136px;
+    height: 161px;
+}
+
+.container > h1{
+    height: 59px;
+    margin-top: 19px;
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.button-Page1{
+    margin-top:20px;
+    font-family:'Recursive';
+    color:#D70900;
+    width: 246px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page2{
+    width: 100%;
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.topo > img{
+    width: 52px;
+    height: 60px;
+    margin-right: 30px;
+}
+
+.topo > h1{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #FFFFFF
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    width: 280px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Recursive';
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 18px;   
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.errado{
+    color:#FF3030;
+    text-decoration: line-through;
+}
+
+.meio-certo{
+    color:#FF922E;
+    text-decoration: line-through;
+}
+
+.certo{
+    color:#2FBE34;
+    text-decoration: line-through;
+}
+
+.checkmark-circle{
+    color:#2FBE34;
+}
+
+.help-circle{
+    color:#FF922E;
+}
+
+.close-circle{
+    color:#FF3030;
+}
+
+
+li > ion-icon{
+    font-size:22px;
+}
+
+
+li > img{
+    width: 10px;
+    height: 13px;
+    cursor: pointer;
+    
+}
+
+.page2 > .bottom{    
+    width: 100%;
+    min-height: 70px;
+    background-color: #FFFFFF;
+    margin-top: 27px;   
+    padding-bottom: 10px; 
+    font-family: 'Recursive';
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flashcard{
+    min-height: 130px;
+    background: #FFFFD5;
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    justify-content: space-between;   
+    cursor:default;
+
+}
+
+.flashcard > p{
+    width: 100%;
+}
+
+.flashcard > img{
+    width: 20px;
+    height: auto;
+    align-self: flex-end;
+}
+
+.page2 .flashcard > div{
+    display: flex;
+}
+
+.page2 .flashcard .vermelho, .laranja, .verde {
+    width: 86px;
+    height: 38px;
+    font-family: 'Recursive';
+    color:#FFFFFF;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.page2 .flashcard .vermelho{
+    background: #FF3030;
+    margin-right: 6px;    
+}
+
+.page2 .flashcard .laranja{
+    background-color:#FF922E;
+    margin-right: 6px;   
+}
+
+.page2 .flashcard .verde{
+    background-color:#2FBE34;
+}
+
+.final-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 14px;
+    height: 100px;
+}
+
+.invisivel{
+    display: none;
+}
